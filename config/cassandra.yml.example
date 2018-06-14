@@ -40,15 +40,15 @@
 #   rake db:migrate_pageviews_to_cassandra
 # This will migrate all page views from the last 52 weeks for non-deleted accounts.
 
-# development:
-#   page_views:
-#     servers:
-#     - 127.0.0.1:9160
-#     keyspace: page_views
-#   auditors:
-#     servers:
-#     - 127.0.0.1:9160
-#     keyspace: auditors
+ development:
+   page_views:
+     servers:
+     - 127.0.0.1:9160
+     keyspace: page_views
+   auditors:
+     servers:
+     - 127.0.0.1:9160
+     keyspace: auditors
 # test:
 #   page_views:
 #     servers:
